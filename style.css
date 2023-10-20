@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0;
+   
+    background-image: url("https://img.freepik.com/premium-photo/financial-graphs-accountant-working-desk-using-calculator-accounting_220873-634.jpg?size=626&ext=jpg&ga=GA1.1.1031379586.1697068800&semt=ais");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   height: 70vh;
+   margin-top: 5%;
+
+   
+    
+}
+#container>h1{
+    color: rgb(43, 6, 77);
+    background-color: aquamarine;
+    padding: 5px;
+}
+#Calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+button{
+    font-size: 25px;
+    width: 150px;
+    /* padding: 5px 10px !important; */
+}
+button:hover{
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+#Operator{
+    margin-top: 30%;
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    border-bottom: 2px solid black;
+}
+
+input{
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    
+}
