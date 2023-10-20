@@ -36,13 +36,9 @@ function modular(a, b) {
 function Equal() {
     let a1 = document.getElementById('num1').value;
     let b1 = document.getElementById('num2').value;
-    let a = parseInt(a1);
-    let b = parseInt(b1);
+    let a = parseInt(a1); // value convert in to integer
+    let b = parseInt(b1); // value convert in to integer
     let x = document.getElementById('Operator');
-
-    console.log(x.value)
-
-
 
     switch (parseInt(x.value)) {
         case 1:
