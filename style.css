@@ -1,57 +1,100 @@
-body{
+body {
     margin: 0%;
     padding: 0;
-   
-    background-image: url("https://img.freepik.com/premium-photo/financial-graphs-accountant-working-desk-using-calculator-accounting_220873-634.jpg?size=626&ext=jpg&ga=GA1.1.1031379586.1697068800&semt=ais");
+
+    /* background-image: url("https://img.freepik.com/premium-photo/financial-graphs-accountant-working-desk-using-calculator-accounting_220873-634.jpg?size=626&ext=jpg&ga=GA1.1.1031379586.1697068800&semt=ais"); */
+    background-image: linear-gradient(to bottom, blue, rgb(111, 206, 237), rgb(66, 66, 228));
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
-#container{
+
+#container {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   height: 70vh;
-   margin-top: 5%;
+    align-items: center;
+    height: 83vh;
+    margin-top: 10%;
 
-   
-    
+
+
 }
-#container>h1{
+
+@media (max-width:970px) {
+    #container {
+        padding-top: 50px;
+        height: 93vh;
+    }
+}
+
+@media (max-width:590px) {
+    #container {
+        height: 100vh;
+    }
+
+    #Calculator {
+        flex-direction: row;
+        margin-left: 10%;
+
+    }
+
+    #Calculator>.row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #Operator {
+        margin-top: 0;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+#container>h1 {
     color: rgb(43, 6, 77);
     background-color: aquamarine;
     padding: 5px;
 }
-#Calculator{
+
+#Calculator {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 25px;
 
 
 }
-button{
+
+button {
     font-size: 25px;
     width: 150px;
-    /* padding: 5px 10px !important; */
+
 }
-button:hover{
+
+button:hover {
     width: 200px;
     color: white;
     font-weight: bold;
     background-color: aquamarine;
 }
-#Operator{
-    margin-top: 30%;
+
+#Operator {
+    margin-top: 25%;
     font-size: 20px;
     text-align: center;
 }
-h3{
-    border-bottom: 2px solid black;
+
+
+#num {
+    color: #fff;
 }
 
-input{
+input {
     text-align: center;
     font-size: 25px;
     width: 200px;
-    
+
 }
